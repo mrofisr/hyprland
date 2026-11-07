@@ -16,6 +16,8 @@ hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 -- SUPER+B lives in overrides.lua: it must unbind k4's files bind first
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("discord"))
+-- k4 battery plugin (declares the k4:battery global shortcut)
+hl.bind(mainMod .. " + SHIFT + B", hl.dsp.global("k4:battery"))
 
 ----------------------------------------------------------------------------
 -- Window control

@@ -37,3 +37,10 @@ Requires a recent Hyprland with Lua config support, plus `hypridle` and
   these.
 - `hyprlock.conf` references a wallpaper at
   `~/.local/share/wallpapers/makkah-1.png`; point it at your own image.
+
+## k4 plugins
+
+- [`k4-plugins/battery/`](k4-plugins/battery/) — the laptop battery as
+  liquid in the k4 island: sloshing level, charging bolt, plug/unplug
+  gestures, low-battery alarm. See its [README](k4-plugins/battery/README.md)
+  for install and IPC.

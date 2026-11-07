@@ -1,0 +1,12 @@
+{
+  "id": "battery",
+  "entry": "BatteryPlugin.qml",
+  "version": "1.0.0",
+  "title": "Battery",
+  "description": "Real liquid in the island: a rippling charge level, sparks while charging, island gestures on plug/unplug and a low-battery alarm",
+  "host": ">=1.1.0",
+  "permisos": ["procesos", "sonido"],
+  "superficies": ["island", "pildora", "ipc", "atajo"],
+  "aplicacion": true,
+  "icono": "0x0F0084"
+}
